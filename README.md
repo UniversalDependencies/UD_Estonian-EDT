@@ -5,7 +5,7 @@ UD Estonian is a converted version of the Estonian Dependency Treebank (EDT), or
 
 # Introduction
 
-The Estonian UD v2.5 treebank is based on the [Estonian Dependency Treebank](https://github.com/EstSyntax/) (EDT), created at the University of Tartu. The treebank has been automatically converted and then manually reviewed and reannotated.
+The Estonian UD EDT treebank is based on the [Estonian Dependency Treebank](https://github.com/EstSyntax/) (EDT), created at the University of Tartu. The treebank has been automatically converted and then manually reviewed and reannotated.
 
 The treebank covers 3 different genres, namely newspaper texts, fiction and scientific texts:
 
@@ -32,7 +32,8 @@ This work was financed by the [National Programme for Estonian Language Technolo
 
 # Changelog
 
-* UD v2.6: In the enhanced representation, 0-nodes are added in clauses in which a predicate is elided, and the relative pronoun is attached to its antecedent with the relation 'ref'.
+* UD v2.8: Morphological annotation of numerals has been improved, also better documentation has been included
+* UD v2.6: In the enhanced representation, 0-nodes have been added in clauses in which a predicate is elided, and the relative pronoun has been attached to its antecedent with the relation 'ref'.
 * UD v2.5: Various individual annotation errors and inconsistencies solved. 3527 tokens added to training data.
 * UD v2.4: xcomp function rechecked, some fixed constructions added. Various individual annotatation errors and inconsistencies solved.
 * UD v2.3: more data added to v2.2. Now the whole original EDT is included in Estonian UD. Annotation of elliptical constructions (label 'orphan') is more systematic. Various individual annotation errors and inconsistencies solved.
