@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Estonian-EDT:
-commit 8296fa774c64635c16ac449afcac0546bbb733be
-Merge: 748ef2c 5455c36
+commit 305bc09c5b8cd3e548c9384b469cdf73e25c58d5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 13 09:08:10 2021 +0200
 Size: counted 437767 of 437767 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.1633736107267.
 Size: maximum value 13.815511 is for 1000000 words or more.
