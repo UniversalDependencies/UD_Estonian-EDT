@@ -19,7 +19,7 @@ The treebank covers 3 different genres, namely newspaper texts, fiction and scie
 
 We wish to thank all who have contributed to the original EDT annotation effort, especially Eleri Aedmaa, Riin Kirt and Dage Särg.
 
-We also thank developers of [udapi](http://udapi.github.io/) and [ud annotatrix](https://github.com/jonorthwash/ud-annotatrix) tools.
+We also thank developers of [udapi](http://udapi.github.io/), [ud annotatrix](https://github.com/jonorthwash/ud-annotatrix) and , and [ConlluEditor](https://github.com/Orange-OpenSource/conllueditor) tools.
 
 This work was financed by the [National Programme for Estonian Language Technology](https://www.keeletehnoloogia.ee/en?set_language=en) and Estonian Ministery of Education and Research (grant 20-56 IUT20-56 "Computational models for Estonian").
 
@@ -32,6 +32,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
 
 # Changelog
 
+* UD v2.10: annotation of enhanced dependencies improved,  subjects of clausal complements (xcomp) are annotated, regardless of whether this subject is the same or different from the subject of the next higher clause; errors of goeswith annotation fixed, annotation of foreign words improved.
 * UD v2.8: Morphological annotation of numerals has been improved, also better documentation has been included
 * UD v2.6: In the enhanced representation, 0-nodes have been added in clauses in which a predicate is elided, and the relative pronoun has been attached to its antecedent with the relation 'ref'.
 * UD v2.5: Various individual annotation errors and inconsistencies solved. 3527 tokens added to training data.
