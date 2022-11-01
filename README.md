@@ -32,6 +32,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
 
 # Changelog
 
+* UD v2.11: annotation of enhanced dependencies improved; fixed issues of reported speech, numbers; added named entity annotation to MISC field (NE=B-Type or NE=I-Type where Type stands for Per-person, Loc - location, Gep - geopolitical institution, Org - organisation, Eve - event, Prod - product, Muu - other, Unk - unknown, B stands for beginning and I stands for in).
 * UD v2.10: annotation of enhanced dependencies improved,  subjects of clausal complements (xcomp) are annotated, regardless of whether this subject is the same or different from the subject of the next higher clause; errors of goeswith annotation fixed, annotation of foreign words improved.
 * UD v2.8: Morphological annotation of numerals has been improved, also better documentation has been included
 * UD v2.6: In the enhanced representation, 0-nodes have been added in clauses in which a predicate is elided, and the relative pronoun has been attached to its antecedent with the relation 'ref'.
