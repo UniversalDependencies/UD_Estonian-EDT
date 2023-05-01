@@ -3629,7 +3629,7 @@
 1	JA	ja	CCONJ	J	_	4	cc	4:cc	_
 2	MA	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
 3	EI	ei	ADV	D	_	4	advmod	4:advmod	_
-4	NäE	nägema	VERB	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	NäE	nägema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	Z	_	7	punct	7:punct	_
 6	nagu	nagu	SCONJ	J	_	7	mark	7:mark	_
 7	väidetud	väitma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl	_
@@ -3925,8 +3925,8 @@
 11	,	,	PUNCT	Z	_	10	punct	10:punct	_
 12	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 13	märksõna	märk_sõna	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
-14	acid	acid	X	S	Case=Nom|Number=Sing	13	appos	13:appos	_
-15	jazz	jazz	NOUN	S	Case=Nom|Number=Sing	14	flat	14:flat	SpaceAfter=No
+14	acid	acid	X	T	Foreign=Yes	13	appos	13:appos	_
+15	jazz	jazz	X	T	Foreign=Yes	14	flat	14:flat	SpaceAfter=No
 16	.	.	PUNCT	Z	_	13	punct	13:punct	_
 
 # sent_id = aja_ee199920_2184
@@ -27877,7 +27877,7 @@
 6	plaani	plaanima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	6:nsubj	_
 8	ära	ära	ADV	D	_	9	compound:prt	9:compound	_
-9	osta	ostma	VERB	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	6:ccomp	_
+9	osta	ostma	VERB	V	VerbForm=Inf	6	ccomp	6:ccomp	_
 10	Optiva	Optiva	PROPN	S	Case=Nom|Number=Sing	11	nmod	11:nmod	NE=B-Org
 11	Panka	Pank	PROPN	S	Case=Par|Number=Sing	9	obj	9:obj	NE=I-Org|SpaceAfter=No
 12	?	?	PUNCT	Z	_	6	punct	6:punct	_
@@ -42969,7 +42969,7 @@
 3	kristlus	kristlus	NOUN	S	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj	_
 4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
 5	kommunism	kommunism	NOUN	S	Case=Nom|Number=Sing	3	conj	3:conj|7:nsubj	_
-6	teineteisest	teineteise	PRON	P	Case=Ela|Number=Sing|PronType=Rcp|Reflex=Yes	7	obl	7:obl	_
+6	teineteisest	teine_teise	PRON	P	Case=Ela|Number=Sing|PronType=Rcp|Reflex=Yes	7	obl	7:obl	_
 7	kaugel	kaugel	ADV	D	_	0	root	0:root	_
 8	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	SpaceAfter=No
 9	,	,	PUNCT	Z	_	13	punct	13:punct	_

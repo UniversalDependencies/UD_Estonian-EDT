@@ -12494,7 +12494,7 @@
 1	“	“	PUNCT	Z	_	7	punct	7:punct	_
 2	Lehmä	lehm	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
 3	es	ei	AUX	V	Polarity=Neg	7	aux	7:aux	_
-4	tohtinu	tohtima	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+4	tohtinu	tohtima	AUX	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 5	vitsaga	vits	NOUN	S	Case=Com|Number=Sing	7	obl	7:obl	_
 6	ka	ka	ADV	D	_	7	advmod	7:advmod	_
 7	lüüa	lööma	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
@@ -23458,7 +23458,7 @@
 5	Motion	Motion	PROPN	S	Case=Nom|Number=Sing	3	appos	3:appos	NE=B-Org
 6	Picture	Picture	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Org
 7	Association	Association	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Org
-8	of	of	X	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Org
+8	of	of	X	T	_	5	flat	5:flat	NE=I-Org
 9	America	America	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Org
 10	-	-	PUNCT	Z	_	11	punct	11:punct	_
 11	MPAA	MPAA	PROPN	Y	Abbr=Yes	5	appos	5:appos	NE=B-Org|SpaceAfter=No
@@ -23489,7 +23489,7 @@
 
 # sent_id = aja_luup200009_754
 # text = 20. jaanuaril keelas USA California osariigi ringkonnakohus DeCSSi levitamise kogu maailmas - seda küll esialgu ajutiselt (preliminary injunction).
-1	20.	20.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+1	20.	20.	ADJ	N	NumForm=Digit|NumType=Ord	2	amod	2:amod	_
 2	jaanuaril	jaanuar	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
 3	keelas	keelama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	USA	USA	PROPN	Y	Abbr=Yes	5	nmod	5:nmod	NE=B-Gep
@@ -26624,7 +26624,7 @@
 6	hingeelu	hinge_elu	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
 7	salaurgastesse	sala_urgas	NOUN	S	Case=Ill|Number=Plur	8	obl	8:obl	_
 8	uudistama	uudistama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	9	advcl	9:advcl	_
-9	palutud	paluma	VERB	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+9	palutud	paluma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 10	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	9	obj	9:obj	_
 11	naljalt	naljalt	ADV	D	_	9	advmod	9:advmod	_
 12	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	SpaceAfter=No
