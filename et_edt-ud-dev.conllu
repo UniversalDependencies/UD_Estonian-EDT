@@ -49830,7 +49830,7 @@
 # sent_id = tea_eesti_arst_2004_283
 # text = Vanemas eas tekkinud dementsusjuhte peeti seniilseks dementsuseks.
 1	Vanemas	vanem	ADJ	A	Case=Ine|Degree=Cmp|Number=Sing	2	amod	2:amod	_
-2	eas	iga	NOUN	S	Case=Ine|Number=Sing|PronType=Tot	3	obl	3:obl	_
+2	eas	iga	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
 3	tekkinud	tekki=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	acl	4:acl	_
 4	dementsusjuhte	dementsus_juht	NOUN	S	Case=Par|Number=Plur	5	obj	5:obj|7:nsubj	_
 5	peeti	pidama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
