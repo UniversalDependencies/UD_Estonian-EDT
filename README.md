@@ -29,9 +29,11 @@ This work was financed by the [National Programme for Estonian Language Technolo
   [Estonian Dependency Treebank and its annotation scheme](http://tlt13.sfs.uni-tuebingen.de/tlt13-proceedings.pdf). In: Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT13), pp. 285–291, ISBN 978-3-9809183-9-8, Tübingen, Germany.
 * Kadri Muischnek, Kaili Müürisep and Tiina Puolakainen 2016. Estonian Dependency Treebank: from Constraint Grammar tagset to Universal Dependencies. - Proceedings of LREC 2016.
 * Kadri Muischnek and Kaili Müürisep. 2017. Estonian copular and existential constructions as an UD annotation problem. In Proceedings of the NoDaLiDa 2017 Workshop on Universal Dependencies (UDW 2017), pp. 79-85. 2017.
+* Kadri Muischnek, Kaili Müürisep. 2023. [Named Entity layer in Estonian UD treebanks](https://openreview.net/pdf?id=mo1p--2vbq). In Proceedings NoDaLiDa 2023.
 
 # Changelog
 
+* UD v2.12: minor errors fixed
 * UD v2.11: annotation of enhanced dependencies improved; fixed issues of reported speech, numbers; added named entity annotation to MISC field (NE=B-Type or NE=I-Type where Type stands for Per-person, Loc - location, Gep - geopolitical institution, Org - organisation, Eve - event, Prod - product, Muu - other, Unk - unknown, B stands for beginning and I stands for in).
 * UD v2.10: annotation of enhanced dependencies improved,  subjects of clausal complements (xcomp) are annotated, regardless of whether this subject is the same or different from the subject of the next higher clause; errors of goeswith annotation fixed, annotation of foreign words improved.
 * UD v2.8: Morphological annotation of numerals has been improved, also better documentation has been included
