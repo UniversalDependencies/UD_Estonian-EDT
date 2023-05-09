@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Estonian-EDT:
-commit 98b4a77eff4479ce58c0528475f085fef5cddb8c
-Merge: 811dc44 1593515
+commit fbb4a79659b145a7fbd8b9799da8ea8c2238938a
+Merge: 47735ba 8922275
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 437801 of 437801 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.1635289384683.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 298945 out of 437801 total words have one or more features.
+Features: 298941 out of 437801 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 437801 words.
 Genres: found 4 out of 17 known.
-validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-dev.conllu
 *** PASSED ***
-validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-test.conllu
 *** PASSED ***
-validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EDT/et_edt-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
