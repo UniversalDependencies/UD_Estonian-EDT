@@ -49110,7 +49110,7 @@
 14	3	3	NUM	N	NumForm=Digit|NumType=Card	2	parataxis	2:parataxis	SpaceAfter=No
 15	)	)	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
 16	,	,	PUNCT	Z	_	19	punct	19:punct	_
-17	s.t	s.t	ADV	Y	Abbr=Yes	24	advmod	24:advmod	_
+17	s.t	s.t	ADV	Y	Abbr=Yes	19	advmod	19:advmod	_
 18	samal	sama	DET	P	Case=Ade|Number=Sing|PronType=Dem	19	det	19:det	_
 19	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	11	conj	2:obl|11:conj	_
 20	kui	kui	SCONJ	J	_	18	fixed	18:fixed	_
