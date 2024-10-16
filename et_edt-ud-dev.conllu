@@ -19827,7 +19827,7 @@
 6	raadiokanalitel	raadio_kanal	NOUN	S	Case=Ade|Number=Plur	7	obl	7:obl	_
 7	kuulda	kuulma	VERB	V	VerbForm=Inf	0	root	0:root	Verb=kuulma
 8	probleemsaateid	probleem_saade	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	Arg=kuulma_Arg_1
-9	sellest	see	DET	P	Case=Ela|Number=Sing|PronType=Dem	8	det	8:det	SpaceAfter=No
+9	sellest	see	PRON	P	Case=Ela|Number=Sing|PronType=Dem	8	nmod	8:nmod	SpaceAfter=No
 10	,	,	PUNCT	Z	_	14	punct	14:punct	_
 11	et	et	SCONJ	J	_	14	mark	14:mark	_
 12	müslipakis	müsli_pakk	NOUN	S	Case=Ine|Number=Sing	14	obl	14:obl	_
@@ -19879,7 +19879,7 @@
 12	või	või	CCONJ	J	_	13	cc	13:cc	_
 13	leiaks	leidma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	3:ccomp|11:conj	Verb=leidma
 14	äkki	äkki	ADV	D	_	13	advmod	13:advmod	_
-15	mõne	mõni	DET	P	Case=Gen|Number=Sing|PronType=Ind	16	det	16:det	_
+15	mõne	mõni	DET	P	Case=Gen|Number=Sing|PronType=Ind	17	det	17:det	_
 16	teise	teine	DET	P	Case=Gen|Number=Sing|PronType=Dem	17	det	17:det	_
 17	lahenduse	lahendus	NOUN	S	Case=Gen|Number=Sing	13	obj	13:obj	Arg=leidma_Arg_1|SpaceAfter=No
 18	.	.	PUNCT	Z	_	3	punct	3:punct	_
@@ -27868,7 +27868,7 @@
 
 # sent_id = aja_luup200009_985
 # text = Üheski teises riigis ei elutse nii palju erinevaid imetajaid (515) kui Indoneesias.
-1	Üheski	üks	DET	P	Case=Ine|Number=Sing|PronType=Ind	2	det	2:det	_
+1	Üheski	üks	DET	P	Case=Ine|Number=Sing|PronType=Ind	3	det	3:det	_
 2	teises	teine	DET	P	Case=Ine|Number=Sing|PronType=Dem	3	det	3:det	_
 3	riigis	riik	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
 4	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
@@ -34375,8 +34375,8 @@
 # text = Seepärast käis see esimene vasikas korra aia taga ära.
 1	Seepärast	see_pärast	ADV	D	_	2	advmod	2:advmod	_
 2	käis	käima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	_
-4	esimene	esimene	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
+4	esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	5	amod	5:amod	_
 5	vasikas	vasikas	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
 6	korra	kord	NOUN	S	Case=Gen|Number=Sing	2	obl	2:obl	_
 7	aia	aed	NOUN	S	Case=Gen|Number=Sing	2	obl	2:obl	_
@@ -41941,7 +41941,7 @@
 2	silme	silm	NOUN	S	Case=Gen|Number=Plur	4	obl	4:obl	Arg=kerkima_Arg_2
 3	ette	ette	ADP	K	AdpType=Post	2	case	2:case	_
 4	kerkis	kerkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=kerkima
-5	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	6	det	6:det	_
+5	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	7	det	7:det	_
 6	teine	teine	DET	P	Case=Nom|Number=Sing|PronType=Dem	7	det	7:det	_
 7	pildike	pildike	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	Arg=kerkima_Arg_1|SpaceAfter=No
 8	,	,	PUNCT	Z	_	11	punct	11:punct	_
@@ -47872,7 +47872,7 @@
 5	kõigi	kõik	DET	P	Case=Gen|Number=Plur|PronType=Tot	6	det	6:det	_
 6	näitajate	näitaja	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
 7	väärtused	väärtus	NOUN	S	Case=Nom|Number=Plur	2	nsubj	2:nsubj	Arg=vähenema_Arg_1
-8	mõlemas	mõlema	DET	P	Case=Ine|Number=Sing|PronType=Tot	27	det	27:det	SpaceAfter=No
+8	mõlemas	mõlema	ADJ	P	Case=Ine|Number=Sing|PronType=Tot	27	amod	27:amod	SpaceAfter=No
 9	,	,	PUNCT	Z	_	11	punct	11:punct	_
 10	6	6	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
 11	p	p	NOUN	Y	Abbr=Yes	8	appos	8:appos	_
@@ -51176,8 +51176,8 @@
 10	sabatuuma	saba_tuum	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
 11	peas	pea	NOUN	S	Case=Ine|Number=Sing	8	conj	0:root|8:conj	SpaceAfter=No
 12	,	,	PUNCT	Z	_	13	punct	13:punct	_
-13	globus	globus	X	T	Foreign=Yes	8	conj	0:root|8:conj	OrigLang=la
-14	pallidus'es	pallidus	NOUN	T	Case=Ine|Number=Sing	13	flat:foreign	13:flat	OrigLang=la|SpaceAfter=No
+13	globus	globus	NOUN	T	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	8	conj	0:root|8:conj	Lang=la
+14	pallidus'es	pallidus	ADJ	T	Case=Ine|Degree=Pos|Number=Sing	13	amod	13:amod	OrigLang=la|SpaceAfter=No
 15	,	,	PUNCT	Z	_	22	punct	22:punct	_
 16	dorsaalsetes	dorsaalne	ADJ	A	Case=Ine|Degree=Pos|Number=Plur	22	amod	22:amod	SpaceAfter=No
 17	,	,	PUNCT	Z	_	18	punct	18:punct	_

@@ -4168,11 +4168,11 @@
 19	teadmine	teadmine	NOUN	S	Case=Nom|Number=Sing	16	nsubj	16:nsubj	Arg=jõudma_Arg_0|SpaceAfter=No
 20	,	,	PUNCT	Z	_	23	punct	23:punct	_
 21	kui	kui	ADV	D	_	22	mark	22:mark	_
-22	paljusid	palju	DET	P	Case=Par|Number=Plur|PronType=Ind	23	det	23:det	_
+22	paljusid	palju	PRON	P	Case=Par|Number=Plur|PronType=Ind	23	nmod	23:nmod	_
 23	raamatuid	raamat	NOUN	S	Case=Par|Number=Plur	36	nsubj	36:nsubj	Arg=minema_Arg_1|SpaceAfter=No
 24	,	,	PUNCT	Z	_	27	punct	27:punct	_
 25	kui	kui	ADV	D	_	26	mark	26:mark	_
-26	mitmeid	mitu	DET	P	Case=Par|Number=Plur|PronType=Ind	27	det	27:det	_
+26	mitmeid	mitu	PRON	P	Case=Par|Number=Plur|PronType=Ind	27	nmod	27:nmod	_
 27	teooriaid	teooria	NOUN	S	Case=Par|Number=Plur	23	conj	23:conj|36:nsubj	_
 28	ja	ja	CCONJ	J	_	29	cc	29:cc	_
 29	kontrateooriaid	kontra_teooria	NOUN	S	Case=Par|Number=Plur	27	conj	27:conj|36:nsubj	_
@@ -9330,8 +9330,8 @@
 7	vaatama	vaatama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	6	xcomp	6:xcomp	Arg=hakkama_Arg_1|Verb=vaatama
 8	seebisarja	seebi_sari	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	Arg=vaatama_Arg_1|NE=B-Prod
 9	"	"	PUNCT	Z	_	11	punct	11:punct	NE=I-Prod|SpaceAfter=No
-10	Peyton	Peyton	PROPN	S	Case=Nom|Foreign=Yes|Number=Sing	11	nmod	11:nmod	Lang=en|NE=I-Prod
-11	Place	Place	NOUN	T	Foreign=Yes|Number=Sing	8	appos	8:appos	Lang=en|NE=I-Prod|SpaceAfter=No
+10	Peyton	Peyton	PROPN	S	Number=Sing	11	nmod	11:nmod	Lang=en|NE=I-Prod
+11	Place	Place	NOUN	T	Number=Sing	8	appos	8:appos	Lang=en|NE=I-Prod|SpaceAfter=No
 12	"	"	PUNCT	Z	_	11	punct	11:punct	NE=I-Prod|SpaceAfter=No
 13	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
@@ -18148,17 +18148,17 @@
 16	tekstiväljas	teksti_väli	NOUN	S	Case=Ine|Number=Sing	1	conj	0:root|1:conj	_
 17	kirje	kirje	NOUN	S	Case=Nom|Number=Sing	16	nsubj:cop	16:nsubj:cop	SpaceAfter=No
 18	:	:	PUNCT	Z	_	19	punct	19:punct	_
-19	Gestiftet	gestiftet	X	T	Foreign=Yes	17	appos	17:appos	OrigLang=de
-20	von	von	X	T	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de
-21	der	der	X	T	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de
-22	St.	st	PROPN	S	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de|NE=B-Org
-23	Antoni-Gilde	Antoni-Gilde	PROPN	S	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de|NE=I-Org
-24	als	als	X	T	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de
-25	Conpatronin	conpatronin	X	T	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de
-26	der	der	X	T	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de
-27	St.	st	PROPN	S	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de|NE=B-Org
-28	Johannis-Gemeinde	Johannis-Gemeinde	PROPN	S	Foreign=Yes	19	flat:foreign	19:flat	OrigLang=de|NE=I-Org
-29	1904	1904	NUM	N	NumForm=Digit|NumType=Card	19	nummod	19:nummod	SpaceAfter=No
+19	Gestiftet	gestiftet	VERB	T	VerbForm=Part	17	acl	17:acl	Lang=de
+20	von	von	ADP	T	_	22	case	22:case	Lang=de
+21	der	der	DET	T	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Lang=de
+22	St.	st	PROPN	S	Case=Dat|Gender=Fem|Number=Sing	19	obl	19:obl	Lang=de|NE=B-Org
+23	Antoni-Gilde	Antoni-Gilde	PROPN	S	Case=Dat|Gender=Fem|Number=Sing	19	flat	19:flat	Lang=de|NE=I-Org
+24	als	als	ADP	T	_	25	case	25:case	Lang=de
+25	Conpatronin	Conpatronin	NOUN	T	Case=Nom|Gender=Fem|Number=Sing	19	obl	19:obl	Lang=de
+26	der	der	DET	T	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Lang=de
+27	St.	st	PROPN	S	Case=Gen|Gender=Fem|Number=Sing	25	nmod	25:nmod	Lang=de|NE=B-Org
+28	Johannis-Gemeinde	Johannis-Gemeinde	PROPN	S	Case=Gen|Gender=Fem|Number=Sing	27	flat	27:flat	Lang=de|NE=I-Org
+29	1904	1904	NUM	N	NumType=Card	19	nummod	19:nummod	SpaceAfter=No
 30	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
 # sent_id = aja_pm20000218_305
@@ -31592,7 +31592,7 @@
 1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Loc
 2	keskkonda	keskkond	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	Arg=mõjutama_Arg_1
 3	mõjutab	mõjutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=mõjutama
-4	kõik	kõik	DET	P	Case=Nom|Number=Sing|PronType=Tot	5	det	5:det	_
+4	kõik	kõik	DET	P	Case=Nom|Number=Sing|PronType=Tot	6	det	6:det	_
 5	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	6	det	6:det	_
 6	halb	halb	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	nsubj	3:nsubj|9:nsubj	Arg=mõjutama_Arg_0|SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	9:punct	_
@@ -36740,7 +36740,7 @@
 # sent_id = ilu_sauter_29
 # text = Aga see teine sort naljalt lõbumajja ei lähe või kui lähebki siis nutab prostituudi rindade vahe märjaks ja midagi muud märjaks ei teegi.
 1	Aga	aga	CCONJ	J	_	8	cc	8:cc	_
-2	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	_
+2	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	_
 3	teine	teine	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	4:det	_
 4	sort	sort	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj|13:nsubj|23:nsubj	Arg=minema_Arg_0
 5	naljalt	naljalt	ADV	D	_	8	advmod	8:advmod	_
@@ -42259,33 +42259,33 @@
 # sent_id = ilu_sauter_385
 # text = "Po russkii gavarish?"
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	Po	po	X	T	_	0	root	0:root	OrigLang=ru
-3	russkii	russkii	X	T	_	2	flat:foreign	2:flat	OrigLang=ru
-4	gavarish	gavarish	X	T	_	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
+2	Po	po	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru
+3	russkii	russkii	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=ru
+4	gavarish	gavarish	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
 5	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
 6	"	"	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = ilu_sauter_386
 # text = "Gavarju."
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	Gavarju	gavarju	X	T	_	0	root	0:root	OrigLang=ru|SpaceAfter=No
+2	Gavarju	gavarju	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru|SpaceAfter=No
 3	.	.	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
 4	"	"	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = ilu_sauter_387
 # text = "Dai tritsat sentov?"
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	Dai	dai	X	T	_	0	root	0:root	OrigLang=ru
-3	tritsat	tritsat	X	T	_	2	flat:foreign	2:flat	OrigLang=ru
-4	sentov	sentov	X	T	_	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
+2	Dai	dai	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru
+3	tritsat	tritsat	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=ru
+4	sentov	sentov	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
 5	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
 6	"	"	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = ilu_sauter_388
 # text = "Tritsat sentov?"
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	Tritsat	Tritsat	X	T	_	0	root	0:root	OrigLang=ru
-3	sentov	sentov	X	T	_	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
+2	Tritsat	Tritsat	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru
+3	sentov	sentov	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=ru|SpaceAfter=No
 4	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
 5	"	"	PUNCT	Z	_	2	punct	2:punct	_
 
@@ -42325,14 +42325,14 @@
 # sent_id = ilu_sauter_392
 # text = " Da.
 1	"	"	PUNCT	Z	_	2	punct	2:punct	_
-2	Da	da	X	T	_	0	root	0:root	OrigLang=ru|SpaceAfter=No
+2	Da	da	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru|SpaceAfter=No
 3	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = ilu_sauter_393
 # text = Pohmelitsa nje hvatajet. "
-1	Pohmelitsa	Pohmelitsa	X	T	_	0	root	0:root	OrigLang=ru
-2	nje	nje	X	T	_	1	flat:foreign	1:flat	OrigLang=ru
-3	hvatajet	hvatajet	X	T	_	1	flat:foreign	1:flat	OrigLang=ru|SpaceAfter=No
+1	Pohmelitsa	Pohmelitsa	X	T	Foreign=Yes	0	root	0:root	OrigLang=ru
+2	nje	nje	X	T	Foreign=Yes	1	flat:foreign	1:flat	OrigLang=ru
+3	hvatajet	hvatajet	X	T	Foreign=Yes	1	flat:foreign	1:flat	OrigLang=ru|SpaceAfter=No
 4	.	.	PUNCT	Z	_	1	punct	1:punct	_
 5	"	"	PUNCT	Z	_	1	punct	1:punct	_
 
@@ -42349,12 +42349,12 @@
 9	ringi	ringi	ADV	D	_	8	compound:prt	8:compound	SpaceAfter=No
 10	:	:	PUNCT	Z	_	8	punct	8:punct	_
 11	"	"	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
-12	Dai	Dai	X	T	_	8	parataxis	8:parataxis	OrigLang=ru
-13	boh	boh	X	T	_	12	flat:foreign	12:flat	OrigLang=ru
-14	tebje	tebje	X	T	_	12	flat:foreign	12:flat	OrigLang=ru
-15	tshastje	tshastje	X	T	_	12	flat:foreign	12:flat	OrigLang=ru
-16	v	v	X	T	_	12	flat:foreign	12:flat	OrigLang=ru
-17	zhisni	zhisni	X	T	_	12	flat:foreign	12:flat	OrigLang=ru|SpaceAfter=No
+12	Dai	Dai	X	T	Foreign=Yes	8	parataxis	8:parataxis	OrigLang=ru
+13	boh	boh	X	T	Foreign=Yes	12	flat:foreign	12:flat	OrigLang=ru
+14	tebje	tebje	X	T	Foreign=Yes	12	flat:foreign	12:flat	OrigLang=ru
+15	tshastje	tshastje	X	T	Foreign=Yes	12	flat:foreign	12:flat	OrigLang=ru
+16	v	v	X	T	Foreign=Yes	12	flat:foreign	12:flat	OrigLang=ru
+17	zhisni	zhisni	X	T	Foreign=Yes	12	flat:foreign	12:flat	OrigLang=ru|SpaceAfter=No
 18	.	.	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
 19	"	"	PUNCT	Z	_	12	punct	12:punct	_
 
@@ -42464,7 +42464,7 @@
 14	või	või	CCONJ	J	_	17	cc	17:cc	_
 15	-	-	PUNCT	Z	_	16	punct	16:punct	_
 16	minugipärast	minugi_pärast	ADV	D	_	17	advmod	17:advmod	_
-17	copywriterite	copywriter	NOUN	S	Case=Gen|Number=Plur	13	conj	11:advcl|13:conj	_
+17	copywriterite	copywriter	NOUN	S	Case=Gen|Number=Plur	13	conj	11:advcl|13:conj	OrigLang=en
 18	hulgas	hulgas	ADP	K	AdpType=Post	13	case	13:case	SpaceAfter=No
 19	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -42474,7 +42474,7 @@
 2	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	üks	üks	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
 4	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
-5	copywriter	copywriter	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+5	copywriter	copywriter	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	OrigLang=en|SpaceAfter=No
 6	,	,	PUNCT	Z	_	8	punct	8:punct	_
 7	mõõdukalt	mõõdukalt	ADV	D	_	8	advmod	8:advmod	_
 8	õnnelik	õnnelik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
@@ -44115,8 +44115,8 @@
 1	"	"	PUNCT	Z	_	12	punct	12:punct	_
 2	No	no	INTJ	I	_	12	discourse	12:discourse	SpaceAfter=No
 3	,	,	PUNCT	Z	_	12	punct	12:punct	_
-4	de	de	X	T	_	12	obl	12:obl	OrigLang=la
-5	jure	jure	X	T	_	4	flat:foreign	4:flat	OrigLang=la
+4	de	de	ADP	T	_	5	case	5:case	Lang=la
+5	jure	juris	NOUN	T	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	12	obl	12:obl	Lang=la
 6	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 7	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj:cop	12:nsubj	_
 8	muidugi	muidugi	ADV	D	_	12	advmod	12:advmod	_
@@ -47282,8 +47282,8 @@
 1	Ja	ja	CCONJ	J	_	2	cc	2:cc	_
 2	otsustasid	otsustama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=otsustama
 3	-	-	PUNCT	Z	_	4	punct	4:punct	_
-4	nu	nu	X	T	_	2	discourse	2:discourse	OrigLang=ru
-5	nahui	nahui	X	T	_	4	flat:foreign	4:flat	OrigLang=ru
+4	nu	nu	X	T	Foreign=Yes	2	discourse	2:discourse	OrigLang=ru
+5	nahui	nahui	X	T	Foreign=Yes	4	flat:foreign	4:flat	OrigLang=ru
 6	-	-	PUNCT	Z	_	9	punct	9:punct	_
 7	liiga	liiga	ADV	D	_	8	advmod	8:advmod	_
 8	kallis	kallis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	9:amod	_
@@ -51468,7 +51468,7 @@
 
 # sent_id = tea_dr8020_185
 # text = Kõigi nende mõjude tõttu majanduse tootlikkus tervikuna väheneb.
-1	Kõigi	kõik	DET	P	Case=Gen|Number=Plur|PronType=Tot	2	det	2:det	_
+1	Kõigi	kõik	DET	P	Case=Gen|Number=Plur|PronType=Tot	3	det	3:det	_
 2	nende	see	DET	P	Case=Gen|Number=Plur|PronType=Dem	3	det	3:det	_
 3	mõjude	mõju	NOUN	S	Case=Gen|Number=Plur	8	obl	8:obl	_
 4	tõttu	tõttu	ADP	K	AdpType=Post	3	case	3:case	_
@@ -53481,7 +53481,7 @@
 13	peaks	pidama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 14	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	15:nsubj	Arg=toimima_Arg_1
 15	toimima	toimima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	Verb=toimima
-16	mingite	mingi	DET	P	Case=Gen|Number=Plur|PronType=Ind	17	det	17:det	_
+16	mingite	mingi	DET	P	Case=Gen|Number=Plur|PronType=Ind	18	det	18:det	_
 17	muude	muu	DET	P	Case=Gen|Number=Plur|PronType=Ind	18	det	18:det	_
 18	mehhanismide	mehhanism	NOUN	S	Case=Gen|Number=Plur	19	nmod	19:nmod	_
 19	toimel	toime	NOUN	S	Case=Ade|Number=Sing	15	obl	15:obl	Arg=toimima_Arg_3|SpaceAfter=No
