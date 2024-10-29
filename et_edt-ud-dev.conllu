@@ -1182,7 +1182,7 @@
 2	mulle	mina	PRON	P	Case=All|Number=Sing|Person=1|PronType=Prs	5	obl	5:obl	_
 3	ongi	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	just	just	ADV	D	_	5	advmod	5:advmod	_
-5	huvitavad	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	huvitavad	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	üleminekuajajärgud	üle_mineku_aja_järk	NOUN	S	Case=Nom|Number=Plur	5	nsubj:cop	5:nsubj	_
 7	nagu	nagu	SCONJ	J	_	8	mark	8:mark	_
 8	manerism	manerism	NOUN	S	Case=Nom|Number=Sing	5	advcl	5:advcl	SpaceAfter=No
@@ -3888,7 +3888,7 @@
 
 # sent_id = aja_ee199920_1685
 # text = Huvitav, kas selline objekt tekitab publikus äratundmisrõõmu, mõjub talle rahustavalt või tekitab ebamugavust, küsib näituse pressiteates kunstikooli rektor Reiu Tüür.
-1	Huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	ccomp	17:ccomp	Arg=küsima_Arg_1|SpaceAfter=No
+1	Huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	ccomp	17:ccomp	Arg=küsima_Arg_1|SpaceAfter=No
 2	,	,	PUNCT	Z	_	6	punct	6:punct	_
 3	kas	kas	ADV	D	_	6	advmod	6:advmod	_
 4	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
@@ -6452,7 +6452,7 @@
 6	jäigi	jääma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=jääma_3
 7	kajastama	kajastama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	6	xcomp	6:xcomp	Arg=jääma_Arg_5
 8	tookordseid	too_kordne	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	amod	9:amod	_
-9	mõjusid	mõju	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	SpaceAfter=No
+9	mõjusid	mõju	NOUN	S	Case=Par|Number=Plur	7	obj	7:obj	SpaceAfter=No
 10	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
 # sent_id = aja_ee199920_1829
@@ -8626,7 +8626,7 @@
 2	liha	liha	NOUN	S	Case=Nom|Number=Sing	7	obj	7:obj	_
 3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	kindlasti	kindlasti	ADV	D	_	5	advmod	5:advmod	_
-5	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	järele	järele	ADV	D	_	7	compound:prt	7:compound	_
 7	proovida	proovima	VERB	V	VerbForm=Inf	5	csubj:cop	5:csubj	SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	7:punct	_
@@ -10718,7 +10718,7 @@
 2	Tehnika	tehnika	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
 3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	mulle	mina	PRON	P	Case=All|Number=Sing|Person=1|PronType=Prs	5	obl	5:obl	_
-5	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	sellepärast	selle_pärast	ADV	D	_	5	advmod	5:advmod	SpaceAfter=No
 7	,	,	PUNCT	Z	_	11	punct	11:punct	_
 8	et	et	SCONJ	J	_	11	mark	11:mark	_
@@ -25479,7 +25479,7 @@
 23	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	22	obj	22:obj	_
 24	uut	uus	ADJ	A	Case=Par|Degree=Pos|Number=Sing	23	amod	23:amod	_
 25	ja	ja	CCONJ	J	_	26	cc	26:cc	_
-26	huvitavat	huvitav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	conj	23:amod|24:conj	SpaceAfter=No
+26	huvitavat	huvitav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	conj	23:amod|24:conj	SpaceAfter=No
 27	.	.	PUNCT	Z	_	22	punct	22:punct	_
 
 # sent_id = aja_luup200009_851
@@ -27198,7 +27198,7 @@
 7	tähelepanuvõimega	tähele_panu_võime	NOUN	S	Case=Com|Number=Sing	2	conj	2:conj|11:obl	_
 8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 9	Eha	Eha	PROPN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	NE=B-Per
-10	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	11:acl	_
+10	huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
 11	vestleja	vestle=ja	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
 12	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	13	obl	13:obl	_
 13	tahes	tahes	ADV	D	_	14	advmod	14:advmod	_
@@ -29031,8 +29031,8 @@
 9	joonel	joon	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	SpaceAfter=No
 10	,	,	PUNCT	Z	_	15	punct	15:punct	_
 11	ühel	üks	PRON	P	Case=Ade|Number=Sing|PronType=Ind	15	case	15:case	_
-12	või	või	CCONJ	J	_	13	cc	13:cc	_
-13	teisel	teine	PRON	P	Case=Ade|Number=Sing|PronType=Dem	11	conj	11:conj|15:case	_
+12	või	või	CCONJ	J	_	11	fixed	11:fixed	_
+13	teisel	teine	PRON	P	Case=Ade|Number=Sing|PronType=Dem	11	fixed	11:fixed	_
 14	pool	pool	ADP	K	AdpType=Prep	11	fixed	11:fixed	_
 15	Päikest	Päike	PROPN	S	Case=Par|Number=Sing	9	conj	0:root|9:conj	NE=B-Loc
 16	või	või	CCONJ	J	_	21	cc	21:cc	_
@@ -29474,10 +29474,6 @@
 # text = Marje Laugen
 1	Marje	Marje	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
 2	Laugen	Laugen	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Per
-
-# sent_id = aja_ml200247_1529
-# text = 20.11.2002
-1	20.11.2002	20.11.2002	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
 
 # sent_id = aja_ml200247_1530
 # text = Haapsallase Berta Björklundi raamat omaenda elust erineb suuresti tema maalidest
@@ -30443,10 +30439,6 @@
 15	"	"	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
 16	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
-# sent_id = aja_ml200247_1586
-# text = 20.11.2002
-1	20.11.2002	20.11.2002	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
-
 # sent_id = aja_ml200247_1587
 # text = Karske mehe mälu ja huumorimeel on alles mis alles
 1	Karske	karske	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	2:amod	_
@@ -30499,7 +30491,7 @@
 # sent_id = aja_ml200247_1590
 # text = "Huvitav, miks mulle korporatsiooni värvilist paela pintsakule ei pandud," märkab ta ühtäkki, kui pildistamise ajal esmaspäeval oma Rotalia korporatsiooni mütsi kohendab.
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	Huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	ccomp	14:ccomp	Arg=märkama_Arg_1|SpaceAfter=No
+2	Huvitav	huvitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	ccomp	14:ccomp	Arg=märkama_Arg_1|SpaceAfter=No
 3	,	,	PUNCT	Z	_	11	punct	11:punct	_
 4	miks	miks	ADV	D	_	11	mark	11:mark	_
 5	mulle	mina	PRON	P	Case=All|Number=Sing|Person=1|PronType=Prs	11	obl	11:obl	Arg=panema_Arg_4
@@ -31177,7 +31169,7 @@
 6	aastatel	aasta	NOUN	S	Case=Ade|Number=Plur	2	obl	2:obl	_
 7	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	2	cop	2:cop	_
 8	vägagi	väga	ADV	D	_	9	advmod	9:advmod	_
-9	huvitavaid	huvitav	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl	10:acl	_
+9	huvitavaid	huvitav	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
 10	töid	töö	NOUN	S	Case=Par|Number=Plur	2	nsubj:cop	2:nsubj|16:obj	SpaceAfter=No
 11	,	,	PUNCT	Z	_	13	punct	13:punct	_
 12	mida	mis	PRON	P	Case=Par|Number=Plur|PronType=Int,Rel	16	obj	10:ref	Arg=nägema_Arg_1
@@ -31730,7 +31722,7 @@
 # sent_id = aja_ml200247_1656
 # text = Piletid odavad
 1	Piletid	pilet	NOUN	S	Case=Nom|Number=Plur	2	nsubj:cop	2:nsubj	_
-2	odavad	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	0:root	_
+2	odavad	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	0:root	_
 
 # sent_id = aja_ml200247_1657
 # text = Seni on PÖFF olnud suuresti noore publiku mängumaa.
@@ -31767,7 +31759,7 @@
 7	kindlasti	kindlasti	ADV	D	_	6	advmod	6:advmod	_
 8	ka	ka	ADV	D	_	9	advmod	9:advmod	_
 9	vanemaid	vanem	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	12	amod	12:amod	_
-10	huvitava	huvitav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	11:acl	_
+10	huvitava	huvitav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
 11	probleemistikuga	probleemistik	NOUN	S	Case=Com|Number=Sing	12	nmod	12:nmod	_
 12	töid	töö	NOUN	S	Case=Par|Number=Plur	6	nsubj	6:nsubj	Arg=leiduma_Arg_1|SpaceAfter=No
 13	.	.	PUNCT	Z	_	6	punct	6:punct	_
@@ -32988,28 +32980,20 @@
 14	võitle	võitlema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	SpaceAfter=No|Verb=võitlema
 15	?	?	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_ml200247_1744
-# text = 20.11.2002 18.
-1	20.11.2002	20.11.2002	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
-2	18	18	NUM	N	NumForm=Digit|NumType=Card	1	obl	1:obl	SpaceAfter=No
-3	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ml200247_1745
-# text = XI
-1	XI	XI	ADJ	N	NumForm=Roman|NumType=Ord	0	root	0:root	_
-
 # sent_id = aja_ml200247_1746
-# text = 2001 tõmbas ungarlane Tibor Meszaros maast lahti 406,5 kg.
-1	2001	2001	NUM	N	NumForm=Digit|NumType=Card	2	obl	2:obl	_
-2	tõmbas	tõmbama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=tõmbama_1
-3	ungarlane	ungarlane	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Arg=tõmbama_Arg_0
-4	Tibor	Tibor	PROPN	S	Case=Nom|Number=Sing	3	appos	3:appos	NE=B-Per
-5	Meszaros	Meszaros	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	NE=I-Per
-6	maast	maa	NOUN	S	Case=Ela|Number=Sing	2	obl	2:obl	Arg=tõmbama_Arg_2
-7	lahti	lahti	ADV	D	_	2	advmod	2:advmod	Arg=tõmbama_Arg_5
-8	406,5	406,5	NUM	N	NumForm=Digit|NumType=Card	9	nummod	9:nummod	_
-9	kg	kg	NOUN	Y	Abbr=Yes	2	obj	2:obj	Arg=tõmbama_Arg_1|SpaceAfter=No
-10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+# text = 18. XI 2001 tõmbas ungarlane Tibor Meszaros maast lahti 406,5 kg.
+1	18.	18	NUM	N	NumForm=Digit|NumType=Ord	2	amod	2:amod	_
+2	XI	XI	ADJ	N	NumForm=Roman|NumType=Ord	4	obl	4:obl	_
+3	2001	2001	NUM	N	NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
+4	tõmbas	tõmbama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=tõmbama_1
+5	ungarlane	ungarlane	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	Arg=tõmbama_Arg_0
+6	Tibor	Tibor	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Per
+7	Meszaros	Meszaros	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Per
+8	maast	maa	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	Arg=tõmbama_Arg_2
+9	lahti	lahti	ADV	D	_	4	advmod	4:advmod	Arg=tõmbama_Arg_5
+10	406,5	406,5	NUM	N	NumForm=Digit|NumType=Card	11	nummod	1:nummod	_
+11	kg	kg	NOUN	Y	Abbr=Yes	4	obj	4:obj	Arg=tõmbama_Arg_1|SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = aja_ml200247_1747
 # text = Jõutõstmise MRid
@@ -33602,10 +33586,6 @@
 8	postmark	post_mark	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
 9	.	.	PUNCT	Z	_	8	punct	8:punct	_
 
-# sent_id = aja_ml200247_1783
-# text = 20.11.2002
-1	20.11.2002	20.11.2002	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
-
 # sent_id = aja_ml200247_1784
 # text = Tartu on esimene linn Eestis, kus infot linnaliinibusside väljumisaegade kohta saab tellida mobiiltelefonile.
 1	Tartu	Tartu	PROPN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	NE=B-Gep
@@ -33903,10 +33883,6 @@
 14	ja	ja	CCONJ	J	_	15	cc	15:cc	_
 15	tellimisnumbrid	tellimis_number	NOUN	S	Case=Nom|Number=Plur	13	conj	9:obj|13:conj	SpaceAfter=No
 16	.	.	PUNCT	Z	_	9	punct	9:punct	_
-
-# sent_id = aja_ml200247_1798
-# text = 20.11.2002
-1	20.11.2002	20.11.2002	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
 
 # sent_id = aja_pm20001004_1200
 # text = Vahur Kersna ja Mihkel Kärmase saade.
@@ -44363,13 +44339,13 @@
 9	ajakirja	aja_kiri	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	Arg=tellima_Arg_1
 10	tellida	tellima	VERB	V	VerbForm=Inf	3	ccomp	3:ccomp	Arg=taotlema_Arg_1|Verb=tellima
 11	võimalikult	võimalikult	ADV	D	_	12	advmod	12:advmod	_
-12	odava	odav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	acl	13:acl	_
+12	odava	odav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	13:amod	_
 13	hinna	hind	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
 14	eest	eest	ADP	K	AdpType=Post	13	case	13:case	_
 15	ja	ja	CCONJ	J	_	18	cc	18:cc	_
 16	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 17	kõigile	kõik	PRON	P	Case=All|Number=Plur|PronType=Tot	18	obl	18:obl	_
-18	kättesaadav	kätte_saadav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	3:ccomp|10:conj	SpaceAfter=No
+18	kättesaadav	kätte_saadav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	conj	3:ccomp|10:conj	SpaceAfter=No
 19	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = tea_eesti_arst_2004_18
@@ -49533,7 +49509,7 @@
 18	sümptomid	sümptom	NOUN	S	Case=Nom|Number=Plur	19	nsubj	19:nsubj	_
 19	alluvad	alluma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	Arg=näitama_Arg_1
 20	seni	seni	ADV	D	_	21	advmod	21:advmod	_
-21	kättesaadavatele	kätte_saadav	ADJ	A	Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	22:acl	_
+21	kättesaadavatele	kätte_saadav	ADJ	A	Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	22	acl	22:acl	_
 22	ravimitele	ravim	NOUN	S	Case=All|Number=Plur	19	obl	19:obl	_
 23	isegi	isegi	ADV	D	_	24	advmod	24:advmod	_
 24	paremini	paremini	ADV	D	_	19	advmod	19:advmod	_
