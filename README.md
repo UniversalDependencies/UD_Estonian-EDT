@@ -33,6 +33,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
 
 # Changelog
 
+* UD v2.15: annotation of foreign phrases improved, fixed errors in annotation of participles and determiners, agent adverbials have special tag obl:agent, added special layer of argument structure of frequent verbs to the misc field (this annotation is preliminary, annotated verbs have the feature Verb=lemma or Verb=lemma_digit (if the verb has many very different meanings and argument patterns), arguments have the feature Arg=verblemma_Arg_digit).
 * UD v2.13: annotation of enhanced dependencies improved
 * UD v2.12: minor errors fixed
 * UD v2.11: annotation of enhanced dependencies improved; fixed issues of reported speech, numbers; added named entity annotation to MISC field (NE=B-Type or NE=I-Type where Type stands for Per-person, Loc - location, Gep - geopolitical institution, Org - organisation, Eve - event, Prod - product, Muu - other, Unk - unknown, B stands for beginning and I stands for in).
