@@ -14,6 +14,10 @@ The treebank covers 3 different genres, namely newspaper texts, fiction and scie
 * scientific texts (94,022 tokens, 5,483 sentences)
 * Also, the subpart of Estonian part of HamleDT 3.0 treebank has been reannotated and included in the treebank; it contains 9,200 tokens in 1277 sentences.
 
+In addition to standard ud annotation, annotation of named entiites has been added to MISC-field (NE=B-Type or NE=I-Type, there TYPE stands for PER (person), ORG (organisation), LOC (location), GEP (geopolitical name), EVENT (events), PROD (product), MUU (other) or UNK (unknown)).
+
+Also, a preliminary argument structure has been annotated in the MISC field (Verb=meaning, Arg=verb_Arg_[0-5]).
+
 
 # Acknowledgments
 
@@ -33,6 +37,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
 
 # Changelog
 
+* UD v2.16: ExtPos feature added, annotation of the argument structure improved
 * UD v2.15: annotation of foreign phrases improved, fixed errors in annotation of participles and determiners, agent adverbials have special tag obl:agent, added special layer of argument structure of frequent verbs to the misc field (this annotation is preliminary, annotated verbs have the feature Verb=lemma or Verb=lemma_digit (if the verb has many very different meanings and argument patterns), arguments have the feature Arg=verblemma_Arg_digit).
 * UD v2.13: annotation of enhanced dependencies improved
 * UD v2.12: minor errors fixed
