@@ -17610,7 +17610,7 @@
 # sent_id = aja_luup200009_406
 # text = Eestis on mind enim mõjutanud minu akadeemikutest õpetajad Uno Mereste ja Raimund Hagelberg, kes on seotud ka keskpangaga.
 1	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	5	obl	5:obl	NE=B-Loc
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 3	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	5	obj	5:obj	Arg=mõjutama_Arg_1
 4	enim	enim	ADV	D	_	5	advmod	5:advmod	_
 5	mõjutanud	mõjutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Verb=mõjutama
@@ -28067,8 +28067,8 @@
 # text = Makaagiliha kutsutakse taging banas'eks, mis tähendab kuuma liha.
 1	Makaagiliha	makaagi_liha	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	Arg=kutsuma_Arg_1
 2	kutsutakse	kutsuma	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	Verb=kutsuma_2
-3	taging	taging	X	T	Foreign=Yes	4	nmod	4:nmod	Arg=kutsuma_Arg_2|OrigLang=null
-4	banas'eks	banas	NOUN	S	Case=Tra|Number=Sing	2	xcomp	1:nsubj|2:xcomp|7:nsubj	OrigLang=undefined|SpaceAfter=No
+3	taging	taging	X	T	Foreign=Yes	4	nmod	4:nmod	Arg=kutsuma_Arg_2
+4	banas'eks	banas	NOUN	S	Case=Tra|Number=Sing	2	xcomp	1:nsubj|2:xcomp|7:nsubj	SpaceAfter=No
 5	,	,	PUNCT	Z	_	7	punct	7:punct	_
 6	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	7	nsubj	4:ref	Arg=tähendama_Arg_0
 7	tähendab	tähendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl	Verb=tähendama_1
@@ -44576,7 +44576,7 @@
 # sent_id = tea_eesti_arst_2004_28
 # text = Ravimiturgu on kõigutanud küllalt järsud muutused Eesti ravimipoliitikas, kuid kindlasti see stabiliseerub.
 1	Ravimiturgu	ravimi_turg	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	kõigutanud	kõigutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	küllalt	küllalt	ADV	D	_	5	advmod	5:advmod	_
 5	järsud	järsk	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
@@ -48771,7 +48771,7 @@
 # sent_id = tea_eesti_arst_2004_238
 # text = Hästi on teada paiksed toimed: lihaslõõgastus, sidekoe struktuuride elastsuse suurenemine, liigeste liikuvuse ja verevarustuse paranemine, valu vähenemine (1, 2, 3), biokeemiliste protsesside kiirenemine, eksudaadi resorptsiooni ja ainevahetuse paranemine kudedes (1), kroonilise põletiku vähenemine (3).
 1	Hästi	hästi	ADV	D	_	3	advmod	3:advmod	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	teada	teadma	VERB	V	VerbForm=Inf	0	root	0:root	Verb=teadma
 4	paiksed	paikne	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	toimed	toime	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Arg=teadma_Arg_0|SpaceAfter=No

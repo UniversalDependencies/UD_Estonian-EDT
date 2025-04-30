@@ -7247,7 +7247,7 @@
 9	,	,	PUNCT	Z	_	12	punct	12:punct	_
 10	kus	kus	ADV	D	_	12	mark	12:mark	_
 11	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Arg=töötama_Arg_0
-12	töötan	töötama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	8:acl	SpaceAfter=No|Verb=töötama|_=null
+12	töötan	töötama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	8:acl	SpaceAfter=No|Verb=töötama
 13	,	,	PUNCT	Z	_	15	punct	15:punct	_
 14	ja	ja	CCONJ	J	_	15	cc	15:cc	_
 15	tegid	tegema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	1:ccomp|6:conj	Verb=tegema_1
@@ -11599,7 +11599,7 @@
 # sent_id = aja_ml200247_2019
 # text = Laulusõnad on ekraanil näha.
 1	Laulusõnad	laulu_sõna	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	Arg=nägema_Arg_0
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	ekraanil	ekraan	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl	Arg=nägema_Arg_2
 4	näha	nägema	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No|Verb=nägema
 5	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -20854,7 +20854,7 @@
 13	puutumata	puutumata	ADJ	A	Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act	12	xcomp	12:xcomp	Arg=jääma_Arg_5
 14	mitmed	mitu	DET	P	Case=Nom|Number=Plur|PronType=Ind	16	det	16:det	_
 15	Aasia	Aasia	PROPN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	NE=B-Loc
-16	tööstusmaad	tööstus_maa	NOUN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj|13:nsubj	Arg=jääma_Arg_1|SpaceAfter=No
+16	tööstusmaad	tööstus_maa	NOUN	S	Case=Nom|Number=Plur	12	nsubj	12:nsubj|13:nsubj	Arg=jääma_Arg_1|SpaceAfter=No
 17	,	,	PUNCT	Z	_	19	punct	19:punct	_
 18	nagu	nagu	SCONJ	J	_	19	mark	19:mark	_
 19	Jaapan	Jaapan	PROPN	S	Case=Nom|Number=Sing	16	appos	16:appos	NE=B-Gep
@@ -22929,8 +22929,8 @@
 # text = Manilovi alluvad on aga teinud aadressi üles märkides vea, kirjutades sõna “ utiliidid ” ühe i-ga, ning Russkii Deadline ei suutnud seetõttu sellist aadressi leida.
 1	Manilovi	Manilov	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Per
 2	alluvad	alluv	NOUN	S	Case=Nom|Number=Plur	5	nsubj	5:nsubj	Arg=tegema_Arg_0
-3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-4	aga	aga	ADV	D	_	5	cc	5:cc	_
+3	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+4	aga	aga	ADV	D	_	5	advmod	5:advmod	_
 5	teinud	tegema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Verb=tegema_1
 6	aadressi	aadress	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
 7	üles	üles	ADV	D	_	8	compound:prt	8:compound	_
@@ -23919,7 +23919,7 @@
 14	,	,	PUNCT	Z	_	18	punct	18:punct	_
 15	kui	kui	ADV	D	_	18	mark	18:mark	_
 16	avalikuks	avalik	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	18	xcomp	18:xcomp	Arg=tulema_Arg_5
-17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+17	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
 18	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl	Verb=tulema_5
 19	Kohli-aegsed	Kohli-aegne	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	21	amod	21:amod	NE=B-Per
 20	räpased	räpane	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	21	amod	21:amod	_
@@ -23937,7 +23937,7 @@
 32	kandideeri	kandideerima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	28:ccomp	Arg=teatama_Arg_1
 33	enam	enam	ADV	D	_	32	advmod	32:advmod	_
 34	parteijuhi	partei_juht	NOUN	S	Case=Gen|Number=Sing	35	nmod	35:nmod	_
-35	kohale	kohale	NOUN	S	Case=All|Number=Sing	32	obl	32:obl	SpaceAfter=No
+35	kohale	koht	NOUN	S	Case=All|Number=Sing	32	obl	32:obl	SpaceAfter=No
 36	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = aja_pm20000218_610
@@ -27917,7 +27917,7 @@
 # text = Millised eesmärgid on Ühispank seadnud aastaks 2000?
 1	Millised	milline	ADJ	P	Case=Nom|Number=Plur|PronType=Rel	2	amod	2:amod	_
 2	eesmärgid	ees_märk	NOUN	S	Case=Nom|Number=Plur	5	obj	5:obj	Arg=seadma_Arg_1
-3	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 4	Ühispank	Ühis_pank	PROPN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	Arg=seadma_Arg_0|NE=B-Org
 5	seadnud	seadma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Verb=seadma
 6	aastaks	aasta	NOUN	S	Case=Tra|Number=Sing	5	obl	5:obl	_
@@ -31745,8 +31745,8 @@
 14	sama	sama	DET	P	Case=Nom|Number=Sing|PronType=Dem	15	det	15:det	_
 15	palju	palju	PRON	P	Case=Nom|Number=Sing|PronType=Ind	11	obl	11:obl	_
 16	kui	kui	SCONJ	J	_	17	mark	17:mark	_
-17	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	18	advcl	18:advcl	_
-18	tahes	tahes	ADV	D	_	19	advmod	19:advmod	_
+17	mis	mis	PRON	P	Case=Nom|ExtPos=PRON|Number=Sing|PronType=Int,Rel	19	nmod	19:nmod	_
+18	tahes	tahes	ADV	D	_	17	fixed	17:fixed	_
 19	spetsialist	spetsialist	NOUN	S	Case=Nom|Number=Sing	15	advcl	15:advcl	SpaceAfter=No
 20	.	.	PUNCT	Z	_	8	punct	8:punct	_
 
@@ -34401,7 +34401,7 @@
 22	kus	kus	ADV	D	_	28	mark	28:mark	_
 23	narkomaanid	narkomaan	NOUN	S	Case=Nom|Number=Plur	28	nsubj	28:nsubj|32:nsubj	Arg=segama_Arg_0
 24	ise	ise	PRON	P	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	23	nmod	23:nmod	_
-25	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	28:aux	_
+25	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	28:aux	_
 26	moonipurust	mooni_puru	NOUN	S	Case=Ela|Number=Sing	28	obl	28:obl	Arg=segama_Arg_2
 27	vedelikku	vedelik	NOUN	S	Case=Par|Number=Sing	28	obj	28:obj	Arg=segama_Arg_1
 28	seganud	segama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	20	acl	20:acl	Verb=segama_4
@@ -34474,8 +34474,8 @@
 11	räägib	rääkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Verb=rääkima
 12	Palo	Palo	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Per
 13	sõnul	sõna	NOUN	S	Case=Ade|Number=Plur	11	obl	11:obl	_
-14	kas	kas	ADV	D	_	15	advmod	15:advmod	_
-15	või	või	ADV	D	_	16	advmod	16:advmod	_
+14	kas	kas	ADV	D	ExtPos=ADV	16	advmod	16:advmod	_
+15	või	või	ADV	D	_	14	fixed	14:fixed	_
 16	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Arg=rääkima_Arg_0|SpaceAfter=No
 17	,	,	PUNCT	Z	_	21	punct	21:punct	_
 18	et	et	SCONJ	J	_	21	mark	21:mark	_
