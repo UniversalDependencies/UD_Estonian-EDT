@@ -4938,7 +4938,7 @@
 10	Contrat	Contra	PROPN	S	Case=Par|Number=Sing	6	conj	4:obj|6:conj	NE=B-Per|SpaceAfter=No
 11	,	,	PUNCT	Z	_	20	punct	20:punct	_
 12	aga	aga	CCONJ	J	_	20	cc	20:cc	_
-13	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Pers	14	nmod	14:nmod	_
+13	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	14	nmod	14:nmod	_
 14	esinemise	esinemine	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
 15	ajaks	aeg	NOUN	S	Case=Tra|Number=Sing	20	obl	20:obl	_
 16	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
@@ -19095,7 +19095,7 @@
 9	sest	sest	SCONJ	J	_	11	mark	11:mark	_
 10	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Arg=ületama_Arg_0
 11	ületaks	ületama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	Verb=ületama_3
-12	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Pers	14	nmod	14:nmod	_
+12	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	14	nmod	14:nmod	_
 13	päevase	päevane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	14	amod	14:amod	_
 14	sissetuleku	sisse_tulek	NOUN	S	Case=Gen|Number=Sing	11	obj	11:obj	Arg=ületama_Arg_1
 15	mitmekordselt	mitme_kordselt	ADV	D	_	11	advmod	11:advmod	Arg=ületama_Arg_2|SpaceAfter=No
@@ -19679,7 +19679,7 @@
 6	,	,	PUNCT	Z	_	14	punct	14:punct	_
 7	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	14	nsubj	5:ref	Arg=lööma_Arg_0
 8	peaksid	pidama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
-9	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Pers	10	nmod	10:nmod	_
+9	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	nmod	10:nmod	_
 10	kojupöördumise	koju_pöördumine	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
 11	ajaks	aeg	NOUN	S	Case=Tra|Number=Sing	14	obl	14:obl	_
 12	korra	kord	NOUN	S	Case=Gen|Number=Sing	14	obj	14:obj	Arg=lööma_Arg_1
