@@ -36,8 +36,8 @@ This work was financed by the [National Programme for Estonian Language Technolo
 * Kadri Muischnek, Kaili Müürisep. 2023. [Named Entity layer in Estonian UD treebanks](https://openreview.net/pdf?id=mo1p--2vbq). In Proceedings NoDaLiDa 2023.
 
 # Changelog
-
-* UD v2.16: ExtPos feature added, annotation of the argument structure improved
+* UD v2.17: minor errors fixed, mostly related to obl:agent dependencies. 
+* UD v2.16: ExtPos feature added, annotation of the argument structure improved.
 * UD v2.15: annotation of foreign phrases improved, fixed errors in annotation of participles and determiners, agent adverbials have special tag obl:agent, added special layer of argument structure of frequent verbs to the misc field (this annotation is preliminary, annotated verbs have the feature Verb=lemma or Verb=lemma_digit (if the verb has many very different meanings and argument patterns), arguments have the feature Arg=verblemma_Arg_digit).
 * UD v2.13: annotation of enhanced dependencies improved
 * UD v2.12: minor errors fixed
