@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Estonian-EDT:
-commit a98b25420f4efecd2ca79e39dbb3e0559e83fddb
-Merge: 69c5513 c11d808
+commit f76e4d0c1e3546a14abbc27ee125be4c8532c1b9
+Merge: be5459f e0b08de
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'et_edt'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 299127 out of 437788 total words have one or more features.
+Features: 299115 out of 437788 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
