@@ -10,27 +10,27 @@
     <dev><sentences>3122</sentences><tokens>44742</tokens><words>44742</words><fused>0</fused></dev>
     <test><sentences>3207</sentences><tokens>48465</tokens><words>48465</words><fused>0</fused></test>
   </size>
-  <lemmas unique="41982" /><!-- ., ,, olema, ja, see, ", tema, et, ei, mina, kui, mis, ka, ), ( -->
+  <lemmas unique="41986" /><!-- ., ,, olema, ja, see, ", tema, et, ei, mina, kui, mis, ka, ), ( -->
   <forms unique="80243" /><!-- ., ,, ja, on, ", et, ei, kui, ka, ), (, oli, ta, see, ning -->
   <fusions unique="1" /><!-- It's -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">36857</tag><!-- suur, uus, esimene, suurem, viimane, hea, erinev, võimalik, väike, oluline -->
+    <tag name="ADJ">36852</tag><!-- suur, uus, esimene, suurem, viimane, hea, erinev, võimalik, väike, oluline -->
     <tag name="ADP">9306</tag><!-- üle, eest, pärast, kohta, vastu, vahel, peale, järgi, jooksul, enne -->
     <tag name="ADV">42111</tag><!-- ka, siis, nii, kas, juba, välja, aga, veel, väga, mitte -->
-    <tag name="AUX">22452</tag><!-- olema, ei, võima, pidama, saama, tohtima, tunduma, ära, näima, paistma -->
+    <tag name="AUX">22451</tag><!-- olema, ei, võima, pidama, saama, tohtima, tunduma, ära, näima, paistma -->
     <tag name="CCONJ">16092</tag><!-- ja, ning, või, aga, kuid, kui, ega, vaid, ehk, ent -->
-    <tag name="DET">7214</tag><!-- see, üks, kõik, teine, iga, mõni, selline, mingi, sama, kogu -->
+    <tag name="DET">7248</tag><!-- see, üks, kõik, teine, iga, mõni, selline, mingi, sama, kogu -->
     <tag name="INTJ">329</tag><!-- no, noh, oi, ah, issand, no_jah, kurat, tere, oh, hei -->
     <tag name="NOUN">115680</tag><!-- aasta, inimene, aeg, töö, riik, mees, kord, asi, naine, osa -->
     <tag name="NUM">9022</tag><!-- kaks, üks, kolm, miljon, 1, viis, 2, neli, kümme, 10 -->
     <tag name="PART">2</tag><!-- not, to -->
-    <tag name="PRON">22798</tag><!-- tema, see, mina, mis, oma, kes, ise, sina, miski, kõik -->
+    <tag name="PRON">22769</tag><!-- tema, see, mina, mis, oma, kes, ise, sina, miski, teine -->
     <tag name="PROPN">26281</tag><!-- eesti, Tallinn, Tartu, Euroopa, vene_maa, liit, Maa, USA, Peeter, soome -->
     <tag name="PUNCT">71565</tag><!-- ., ,, ", ), (, -, :, ?, !, “ -->
     <tag name="SCONJ">8713</tag><!-- et, kui, nagu, sest, kuigi, kuna, kuni, ehkki, just_kui, otse_kui -->
     <tag name="SYM">740</tag><!-- %, &, =, ω-3, *, ?, ω-6, 1-, A, § -->
-    <tag name="VERB">47861</tag><!-- saama, tulema, tegema, olema, ütlema, minema, võtma, jääma, hakkama, andma -->
+    <tag name="VERB">47862</tag><!-- saama, tulema, tegema, olema, ütlema, minema, võtma, jääma, hakkama, andma -->
     <tag name="X">765</tag><!-- _, al, et, of, in, ceteris, de, paribus, F, a -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -43,7 +43,7 @@
     <feat name="Case" value="Add" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2204</feat><!-- kätte, koju, tuppa, meelde, teise, silma, Tallinna, pähe, selga, kööki -->
     <feat name="Case" value="Ade" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SYM">10293</feat><!-- aastal, ajal, mul, tal, meil, sõnul, sel, juhul, aastatel, samal -->
     <feat name="Case" value="All" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SYM">6695</feat><!-- talle, endale, sellele, mulle, neile, meile, tööle, kellele, kõigile, sulle -->
-    <feat name="Case" value="Com" upos="ADJ,NOUN,NUM,PRON,PROPN,SYM">5293</feat><!-- sellega, millega, temaga, aastaga, kellega, osaajaga, nendega, käega, arhitektuuriga, nimega -->
+    <feat name="Case" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SYM">5293</feat><!-- sellega, millega, temaga, aastaga, kellega, osaajaga, nendega, käega, arhitektuuriga, nimega -->
     <feat name="Case" value="Dat" upos="DET,PROPN">3</feat><!-- Antoni-Gilde, St., der -->
     <feat name="Case" value="Ela" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7394</feat><!-- sellest, neist, millest, aastast, endast, ajast, temast, ühest, Eestist, teistest -->
     <feat name="Case" value="Ess" upos="ADJ,NOUN,NUM,PRON,PROPN">860</feat><!-- reeglina, tulemusena, esimesena, tervikuna, mõjurina, põhjusena, ainsana, näitajana, tegurina, mõjuritena -->
@@ -118,13 +118,13 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="46">
-    <dep name="acl">9149</dep>
-    <dep name="acl:relcl">3246</dep>
+    <dep name="acl">9150</dep>
+    <dep name="acl:relcl">3245</dep>
     <dep name="advcl">6758</dep>
-    <dep name="advmod">27965</dep>
+    <dep name="advmod">27950</dep>
     <dep name="advmod:lmod">1388</dep>
     <dep name="advmod:tmod">3693</dep>
-    <dep name="amod">22183</dep>
+    <dep name="amod">22156</dep>
     <dep name="appos">3672</dep>
     <dep name="aux">11718</dep>
     <dep name="case">9280</dep>
@@ -133,13 +133,13 @@
     <dep name="ccomp">4335</dep>
     <dep name="compound">582</dep>
     <dep name="compound:idiom">335</dep>
-    <dep name="compound:prt">4528</dep>
-    <dep name="conj">22184</dep>
-    <dep name="cop">10727</dep>
+    <dep name="compound:prt">4529</dep>
+    <dep name="conj">22226</dep>
+    <dep name="cop">10726</dep>
     <dep name="csubj">1069</dep>
     <dep name="csubj:cop">920</dep>
-    <dep name="dep">16</dep>
-    <dep name="det">7198</dep>
+    <dep name="dep">17</dep>
+    <dep name="det">7231</dep>
     <dep name="discourse">311</dep>
     <dep name="fixed">459</dep>
     <dep name="flat">4776</dep>
@@ -147,19 +147,19 @@
     <dep name="goeswith">272</dep>
     <dep name="list">11</dep>
     <dep name="mark">10077</dep>
-    <dep name="nmod">38897</dep>
+    <dep name="nmod">38878</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">25834</dep>
-    <dep name="nsubj:cop">9750</dep>
+    <dep name="nsubj:cop">9749</dep>
     <dep name="nummod">5896</dep>
     <dep name="obj">21351</dep>
-    <dep name="obl">20005</dep>
+    <dep name="obl">19993</dep>
     <dep name="obl:agent">403</dep>
     <dep name="obl:arg">3467</dep>
     <dep name="obl:lmod">10719</dep>
     <dep name="obl:tmod">4055</dep>
     <dep name="orphan">605</dep>
-    <dep name="parataxis">4619</dep>
+    <dep name="parataxis">4617</dep>
     <dep name="punct">71565</dep>
     <dep name="root">30930</dep>
     <dep name="vocative">151</dep>
