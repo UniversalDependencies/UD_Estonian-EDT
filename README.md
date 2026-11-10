@@ -36,6 +36,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
 * Kadri Muischnek, Kaili Müürisep. 2023. [Named Entity layer in Estonian UD treebanks](https://openreview.net/pdf?id=mo1p--2vbq). In Proceedings NoDaLiDa 2023.
 
 # Changelog
+* UD v2.19: minor errors fixed.
 * UD v2.18: minor errors fixed, added language specific deprels obl:tmod, obl:lmod, obl:arg, advmod:tmod, advmod:lmod, compound:idiom. 
 * UD v2.17: minor errors fixed, mostly related to obl:agent dependencies. 
 * UD v2.16: ExtPos feature added, annotation of the argument structure improved.
